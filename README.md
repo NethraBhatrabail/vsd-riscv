@@ -9,3 +9,4 @@ College : Mangalore Institute of Technology and Engineering
 Email ID: nethrak05052004@gmail.com
 
 * Task 1 : Installed Ubuntu through VirtualBox. Wrote a  c code to find sum of 1 to n numbers and through riscv found the number of instruction executed.
+* Task 2 : This repository contains a simple C program compiled using the RISC-V GCC compiler with two different optimization levels: -O1 and -Ofast. The compiled program was executed in the SPIKE RISC-V simulator, and object dumps were collected to analyze the impact of optimizations on instruction execution and performance.
