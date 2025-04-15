@@ -14,3 +14,5 @@ Email ID: nethrak05052004@gmail.com
 For those 15 instructions, determined the exact 32-bit instruction code in their respective instruction type ( R, I, S, B, U, and J)formats.
 * Task 4 : Performed the functional simulation experiment using RISC-V core:Verilog netlist and testbench and then observed the waveform. A brief introduction and waveforms is listed in the pdf.
 * Task 5 : It incluides project idea , overview, pinout and circuit diagram, connection table.
+* Task 6 : It includes final code submission and application demo. I have used Arduino IDE to upload the code to VSD chip by installing the CH32V board. i have also installed WCH-link drive in my system which is essential for getting the output. Here is my drive link which contains demo of this application,
+   https://drive.google.com/drive/folders/1rcoZ-OigxoML08i4Vyg_GmbigXAky4zZ?usp=sharing
