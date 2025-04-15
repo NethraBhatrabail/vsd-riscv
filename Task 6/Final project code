@@ -1,0 +1,32 @@
+// Pin definitions
+#define RED_LED    PD5
+#define YELLOW_LED PD4
+#define GREEN_LED  PD3
+
+void setup() {
+  // Set all LED pins as OUTPUT
+  pinMode(RED_LED, OUTPUT);
+  pinMode(YELLOW_LED, OUTPUT);
+  pinMode(GREEN_LED, OUTPUT);
+}
+
+void loop() {
+  // RED ON, others OFF
+  digitalWrite(RED_LED, HIGH);
+  digitalWrite(YELLOW_LED, LOW);
+  digitalWrite(GREEN_LED, LOW);
+  delay(3000);  // Red for 3 seconds
+
+  // GREEN ON, others OFF
+  digitalWrite(RED_LED, LOW);
+  digitalWrite(YELLOW_LED, LOW);
+  digitalWrite(GREEN_LED, HIGH);
+  delay(3000);  // Green for 3 seconds
+
+  // YELLOW ON, others OFF
+  digitalWrite(RED_LED, LOW);
+  digitalWrite(YELLOW_LED, HIGH);
+  digitalWrite(GREEN_LED, LOW);
+  delay(1500);  // Yellow for 1.5 seconds
+}
+
